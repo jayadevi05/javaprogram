@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class colourcodes {
+public static void main(String[]args) {
+Scanner sc=new Scanner(System.in);
+char name=sc.next().charAt(0);
+if (name=='G')
+{
+	System.out.println("Green");
+}
+else if(name=='Y')
+{
+	System.out.println("Yellow");
+}
+else if(name=='B')
+{
+	System.out.println("Blue");
+}
+else if(name=='W')
+{
+	System.out.println("White");
+}
+else if(name=='O')
+{
+	System.out.println("Orange");
+}
+else
+{
+	System.out.println("invalid");
+}
+}
+}
