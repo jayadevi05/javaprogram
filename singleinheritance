@@ -1,0 +1,31 @@
+class Animal {
+ void eat() {
+     System.out.println("eat");
+ }
+
+ void sleep() {
+     System.out.println("sleep");
+ }
+}
+class Bird extends Animal {
+ void eat() {
+     System.out.println("eat1");
+ }
+ void sleep() {
+     System.out.println("sleep1");
+ }
+ void fly() {
+     System.out.println("fly");
+ }
+}
+public class inheritance1sum {
+ public static void main(String[] args) {
+     Animal a = new Animal();
+     a.eat();
+     a.sleep();
+     Bird b = new Bird();
+     b.eat();
+     b.sleep();
+     b.fly();
+ }
+}
